@@ -29,7 +29,7 @@ const Login = () => {
             // Login
             const user = { email, password }; 
             try {
-                const res = await axios.post("http://localhost:3000/api/v1/user/login", user, {
+                const res = await axios.post("https://f5tl801m-5173.inc1.devtunnels.ms/api/v1/user/login", user, {
                     headers: {
                         'Content-Type': 'application/json'
                     },
@@ -63,7 +63,7 @@ const Login = () => {
             setIsLoading(true);
             const user = { fullName, email, password };
             try {
-                const res = await axios.post("http://localhost:3000/api/v1/user/register", user, {
+                const res = await axios.post("https://f5tl801m-5173.inc1.devtunnels.ms/api/v1/user/register", user, {
                     headers: {
                         'Content-Type': 'application/json'
                     },
