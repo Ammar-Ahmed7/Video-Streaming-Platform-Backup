@@ -19,6 +19,6 @@ jobs:
       - name: Run Mabl Tests
         uses: mablhq/github-run-tests-action@v1
         with:
-          mabl-api-key: m92En2gEZBUGEtyGhtJo8A
+          api-key: m92En2gEZBUGEtyGhtJo8A
           environment-id: WqLXqqzxchv2ybOM5SMAMA-e
           application-id: WQUnvuKsmakB7LLA1RYOkw-a
