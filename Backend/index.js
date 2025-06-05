@@ -16,7 +16,7 @@
 
     databaseConnection();
 
-    app.use(cors({ origin: 'https://f5tl801m-5173.inc1.devtunnels.ms/', credentials: true }));
+    app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
     app.use(express.json());
     app.use("/videos", express.static('videos'));
     app.use("/images", express.static('images'));
